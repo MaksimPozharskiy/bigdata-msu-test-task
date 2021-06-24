@@ -1,0 +1,12 @@
+.table__body-cell {
+  border: 1px solid #9c9c9c;
+  width: 150px;
+  text-align: center;
+
+  font-size: 20px;
+}
+
+.table__poster {
+  margin: 5px;
+  width: 100px;
+}

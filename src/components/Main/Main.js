@@ -1,9 +1,13 @@
 import './Main.css';
+import '../Table/Table';
+import Table from '../Table/Table';
 
-function Main() {
+function Main({movies}) {
   return (
-    <div className="App">
-      
+    <div className="main">
+      <Table 
+        movies={movies}
+      />
     </div>
   );
 }
