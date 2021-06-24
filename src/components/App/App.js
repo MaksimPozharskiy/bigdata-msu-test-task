@@ -4,9 +4,11 @@ import Header from '../Header/Header';
 import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
 import Api from '../../utils/Api';
+import Popup from '../Popup/Popup';
 
 function App() {
   const [movies, setMovies] = React.useState([]);
+  const [isVisiblePopup, setIsVisiblePopup] = React.useState(false)
 
   React.useEffect(() => {
     Api.getMovies().then(moviesList => {
@@ -15,13 +17,20 @@ function App() {
   }, []);
 
   return (
-    <div className="page">
-      <Header />
-      <Main 
-        movies={movies}
+    <>
+      <div className='page'>
+        <Header />
+        <Main 
+          movies={movies}
+          setIsVisiblePopup={setIsVisiblePopup}
+        />
+        <Footer />
+      </div>
+      <Popup 
+        isVisiblePopup={isVisiblePopup} 
+        setIsVisiblePopup={setIsVisiblePopup}
       />
-      <Footer />
-    </div>
+    </>
   );
 }
 

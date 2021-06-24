@@ -1,7 +1,8 @@
 import './Table.css';
 import TableRow from '../TableRow/TableRow';
 
-function Table({movies}) {
+function Table({movies, setIsVisiblePopup}) {
+
   return (
     <table className='table'>
       <thead className='table__head'>
@@ -12,6 +13,7 @@ function Table({movies}) {
         year='year'
         rating='rating'
         runtime='runtime'
+        defaultComment='comment'
       />
       </thead>
       <tbody className='table__body'>
@@ -25,6 +27,7 @@ function Table({movies}) {
               year={dataMovie.year}
               rating={dataMovie.rating}
               runtime={dataMovie.runtime}
+              setIsVisiblePopup={setIsVisiblePopup}
               />
           )
         }
