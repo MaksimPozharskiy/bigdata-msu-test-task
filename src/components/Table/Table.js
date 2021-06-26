@@ -1,7 +1,7 @@
 import './Table.css';
 import TableRow from '../TableRow/TableRow';
 
-function Table({movies, setIsVisiblePopup}) {
+function Table({movies, setIsVisiblePopup, setCurrentIdMovie}) {
 
   return (
     <table className='table'>
@@ -27,7 +27,9 @@ function Table({movies, setIsVisiblePopup}) {
               year={dataMovie.year}
               rating={dataMovie.rating}
               runtime={dataMovie.runtime}
+              comment={dataMovie.comment}
               setIsVisiblePopup={setIsVisiblePopup}
+              setCurrentIdMovie={setCurrentIdMovie}
               />
           )
         }
