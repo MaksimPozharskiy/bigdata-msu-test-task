@@ -1,5 +1,5 @@
 .table__body-cell {
-  border: 1px solid #9c9c9c;
+  border: 1px solid #45852D;
   max-width: 150px;
   width: 150px;
   text-align: center;
@@ -19,7 +19,7 @@
 .table__add-icon:hover {
   cursor: pointer;
   transform: scale(1.1);
-  fill: blue;
+  fill: #45852D;
 }
 
 .table__body-cell_type_comment {
