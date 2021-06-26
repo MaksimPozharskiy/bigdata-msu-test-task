@@ -1,7 +1,7 @@
 import './Table.css';
 import TableRow from '../TableRow/TableRow';
 
-function Table({movies, setIsVisiblePopup, setCurrentIdMovie}) {
+function Table({movies, setIsVisiblePopup, setCurrentIdMovie, hadleDeleteCommentButton}) {
 
   return (
     <table className='table'>
@@ -30,6 +30,7 @@ function Table({movies, setIsVisiblePopup, setCurrentIdMovie}) {
               comment={dataMovie.comment}
               setIsVisiblePopup={setIsVisiblePopup}
               setCurrentIdMovie={setCurrentIdMovie}
+              hadleDeleteCommentButton={hadleDeleteCommentButton}
               />
           )
         }

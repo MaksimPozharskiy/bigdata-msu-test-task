@@ -16,10 +16,16 @@
   transition: linear .3s;
 }
 
-.table__add-icon:hover {
+.table__add-icon_add:hover {
   cursor: pointer;
   transform: scale(1.1);
   fill: #45852D;
+}
+
+.table__add-icon_delete:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  fill: #ce2424;
 }
 
 .table__body-cell_type_comment {

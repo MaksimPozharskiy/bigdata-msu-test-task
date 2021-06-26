@@ -12,7 +12,9 @@ function Pagination({ moviesPerPage, totalMovies, paginate }) {
       <ul className='pagination__list'>
         {
           pageNumbers.map(number => (
-            <li className='pagination__list-item'>
+            <li 
+              className='pagination__list-item'
+              key={number}>
               <button onClick={()=> paginate(number)} className='pagination__number'>{number}</button>
             </li>
           ))

@@ -35,6 +35,16 @@ function App() {
     setIsVisiblePopup(false)
   }
   
+  function hadleDeleteCommentButton(idMovie) {
+    setMovies(movies.map((item) => {
+      if (item.id === idMovie) {
+        item.comment = '';
+        return item;
+      }
+      return item
+    }));
+  }
+
   return (
     <>
       <div className='page'>
@@ -43,6 +53,7 @@ function App() {
           movies={movies}
           setIsVisiblePopup={setIsVisiblePopup}
           setCurrentIdMovie={setCurrentIdMovie}
+          hadleDeleteCommentButton={hadleDeleteCommentButton}
         />
         <Footer />
       </div>
