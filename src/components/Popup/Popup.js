@@ -9,7 +9,8 @@ function Popup({isVisiblePopup, setIsVisiblePopup}) {
   return (
     <div className={`popup ${isVisiblePopup ? 'popup_visibility' : ''}`}>
       <form className='popup__form'>
-        <textarea className='popup__input'></textarea>
+        <label className='popup__title' for='comment'>New comment</label>
+        <textarea id='comment' className='popup__input'></textarea>
         <button className='popup__submit' type='submit'>Save comment</button>
       </form>
     <div onClick={closePopup} className='popup__close'></div>
