@@ -88,3 +88,15 @@
 .popup__title {
   font-size: 20px;
 }
+
+
+.popup__input::-webkit-scrollbar {
+  width: 4px; 
+  background-color: #fff;
+}
+
+.popup__input::-webkit-scrollbar-thumb {
+  background-color: #45852D;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px #f3faf7;
+}
