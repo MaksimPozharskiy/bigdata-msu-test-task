@@ -12,7 +12,6 @@ function App() {
   const [valuePopupComment, setValuePopupComment] = React.useState('')
   const [currentIdMovie, setCurrentIdMovie] = React.useState(0)
 
-
   React.useEffect(() => {
     Api.getMovies().then(moviesList => {
       moviesList.data.movies.forEach((item) => {

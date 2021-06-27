@@ -12,17 +12,17 @@
   width: 100px;
 }
 
-.table__add-icon {
+.table__icon {
   transition: linear .3s;
 }
 
-.table__add-icon_add:hover {
+.table__icon_add:hover {
   cursor: pointer;
   transform: scale(1.1);
   fill: #45852D;
 }
 
-.table__add-icon_delete:hover {
+.table__icon_delete:hover {
   cursor: pointer;
   transform: scale(1.1);
   fill: #ce2424;
