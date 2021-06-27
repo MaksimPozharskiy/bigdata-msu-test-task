@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Header from '../Header/Header';
 import Main from '../Main/Main';
-import Footer from '../Footer/Footer';
 import Api from '../../utils/Api';
 import Popup from '../Popup/Popup';
 import { Route } from 'react-router-dom';
@@ -55,7 +54,6 @@ function App() {
           setCurrentIdMovie={setCurrentIdMovie}
           hadleDeleteCommentButton={hadleDeleteCommentButton}
         />
-        <Footer />
       </div>
       <Popup 
         isVisiblePopup={isVisiblePopup} 
