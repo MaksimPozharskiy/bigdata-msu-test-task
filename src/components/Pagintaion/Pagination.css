@@ -4,6 +4,12 @@
   padding: 15px 50px 45px;
 }
 
+@media screen and (max-width: 476px)  {
+  .pagination {
+    padding: 15px 25px 45px;
+  }
+}
+
 .pagination__list {
   display: flex;
   justify-content: space-between;
