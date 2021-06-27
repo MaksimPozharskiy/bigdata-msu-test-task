@@ -5,6 +5,7 @@ import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
 import Api from '../../utils/Api';
 import Popup from '../Popup/Popup';
+import { Route } from 'react-router-dom';
 
 function App() {
   const [movies, setMovies] = React.useState([]);
@@ -45,7 +46,7 @@ function App() {
   }
 
   return (
-    <>
+    <Route exact path='/'>
       <div className='page'>
         <Header />
         <Main 
@@ -64,7 +65,7 @@ function App() {
         handleSubmit={handleSubmit}
         currentIdMovie={currentIdMovie}
       />
-    </>
+    </Route>
   );
 }
 
