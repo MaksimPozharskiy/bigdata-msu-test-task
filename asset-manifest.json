@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bigdata-msu-test-task/static/css/main.e94c9cf5.chunk.css",
+    "main.css": "/bigdata-msu-test-task/static/css/main.831f0411.chunk.css",
     "main.js": "/bigdata-msu-test-task/static/js/main.6cb53d9c.chunk.js",
     "main.js.map": "/bigdata-msu-test-task/static/js/main.6cb53d9c.chunk.js.map",
     "runtime-main.js": "/bigdata-msu-test-task/static/js/runtime-main.34ce7dd3.js",
@@ -8,14 +8,14 @@
     "static/js/2.fa9689a6.chunk.js": "/bigdata-msu-test-task/static/js/2.fa9689a6.chunk.js",
     "static/js/2.fa9689a6.chunk.js.map": "/bigdata-msu-test-task/static/js/2.fa9689a6.chunk.js.map",
     "index.html": "/bigdata-msu-test-task/index.html",
-    "static/css/main.e94c9cf5.chunk.css.map": "/bigdata-msu-test-task/static/css/main.e94c9cf5.chunk.css.map",
+    "static/css/main.831f0411.chunk.css.map": "/bigdata-msu-test-task/static/css/main.831f0411.chunk.css.map",
     "static/js/2.fa9689a6.chunk.js.LICENSE.txt": "/bigdata-msu-test-task/static/js/2.fa9689a6.chunk.js.LICENSE.txt",
     "static/media/App.css": "/bigdata-msu-test-task/static/media/OpenSans-Regular.229564ca.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.34ce7dd3.js",
     "static/js/2.fa9689a6.chunk.js",
-    "static/css/main.e94c9cf5.chunk.css",
+    "static/css/main.831f0411.chunk.css",
     "static/js/main.6cb53d9c.chunk.js"
   ]
 }
